@@ -47,7 +47,7 @@ namespace TestCase
 
             Assert.That("Invalid Triangle - a zero has been detected", Is.EqualTo(actual));
         }
-
+        // Test case for some Invaild use cases triangle
         [TestCase(-1, 5, 7)]
         [TestCase(7, -1, 5)]
         [TestCase(5, 7, -1)]
@@ -59,6 +59,7 @@ namespace TestCase
             Assert.That("INVALID!!", Is.EqualTo(actual));
         }
 
+        // Test case for scalence triangle
         [TestCase(3, 4, 5)]
         [TestCase(10, 9, 8)]
         [TestCase(8, 15, 17)]
